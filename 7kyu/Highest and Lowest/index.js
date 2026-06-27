@@ -8,6 +8,6 @@ function highAndLow(numbers) {
     let min = parseInt(low)
     let maxAndMin = `${max} ${min}`
     console.log(maxAndMin)
-    return maxAndMin
+    return maxAndMin0
 }
 highAndLow("1 2 3")
