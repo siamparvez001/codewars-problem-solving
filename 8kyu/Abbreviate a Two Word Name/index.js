@@ -12,9 +12,9 @@ function abbrevName(name) {
         firstLetter = word[0]
         first.push(firstLetter)
         let result = (first.toString())
-        // console.log(first.join("."))
+        console.log(first.join("."))
 
     }
-    return first.join(".");
+    return first.join(".").toUpperCase();
 }
-abbrevName("Siam Parvez")
+abbrevName("siam parvez")
